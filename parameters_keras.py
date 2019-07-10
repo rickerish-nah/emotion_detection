@@ -7,9 +7,9 @@ import os
 ###
 class Dataset:
     name = 'Fer2013'
-    train_folder = 'data/Fer2013/Train'
-    validation_folder = 'data/Fer2013/Valid'
-    test_folder = 'data/Fer2013/Test'
+    train_folder = '/mnt/data/dataset_emotion/data/Fer2013/Train'#'data/Fer2013/Train'
+    validation_folder = '/mnt/data/dataset_emotion/data/Fer2013/Valid'#'data/Fer2013/Valid'
+    test_folder = '/mnt/data/dataset_emotion/data/Fer2013/Test'#'data/Fer2013/Test'
     #shape_predictor_path='shape_predictor_68_face_landmarks.dat'
 ###
 class Network:
